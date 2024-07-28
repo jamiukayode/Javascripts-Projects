@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <div class="scores">
+            <h4 id="score"><b>Score:</b> 000 </h4>
+            <h4 id="highScore"> 000</h4>
+        </div>
+        <div class="game-border-1">
+            <div class="game-border-2">
+                <div class="game-border-3">
+                    <div id="game-board"></div>
+                </div>
+            </div>
+        </div>
+        <video class="background-video" muted autoplay loop src="background-video.mp4"></video>
+    </div>
+    <h3 id="instruction-text">Press spacebar to start the game </h3>
+    <img id="logo" src="./download__1_-removebg-preview.png" alt="snake-logo">
+
+    <div class="preloader">
+        <img src="preloader.gif" alt="preloader">
+        <h2>Game is Loading..</h2>
+    </div>
+
+    <script src="./script.js" defer></script>
+</body>
+
+</html>

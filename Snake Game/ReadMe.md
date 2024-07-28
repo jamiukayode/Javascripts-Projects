@@ -1,0 +1,1 @@
+This game can only be played on desktop.

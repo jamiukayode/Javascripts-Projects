@@ -1,0 +1,112 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* This is for OTP Generator */
+
+
+main {
+    min-height: 40vh;
+    display: grid;
+    place-items: center;
+  }
+
+p{
+    font-size: large;
+    margin: 1rem 1rem;
+    font-weight: bold;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+    width: 100vh;
+    margin-top: 2rem;
+  }
+  .container h2 {
+    background: rgb(35, 77, 9);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #btn{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    color: black;
+    font-weight:bold;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(29, 22, 22, 0.2);
+    border-radius: 0.7rem;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 8rem;
+  }
+  #btn:hover {
+    color: white;
+    background: black;
+  }
+
+
+  /* Account Number Generator */
+  aside {
+    min-height: 40vh;
+    display: grid;
+    place-items: center;
+  }
+
+p{
+    font-size: large;
+    margin: 1rem 1rem;
+    font-weight: bold;
+}
+
+.Container {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+    width: 100vh;
+    margin-top: 2rem;
+  }
+  .Container h2 {
+    background: rgb(35, 77, 9);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Btn{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    color: black;
+    font-weight:bold;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(29, 22, 22, 0.2);
+    border-radius: 0.7rem;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 15rem;
+  }
+  #Btn:hover {
+    color: black;
+    background: orange;
+  }

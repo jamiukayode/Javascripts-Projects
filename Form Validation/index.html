@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in form</title>
+    <link rel="stylesheet" href="./style.css">
+      <!-- font Awesome -->
+      <script src="https://kit.fontawesome.com/4216520162.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sign-in">
+        <article class="sign-in_details">
+            <h1>Sign in</h1>
+            <p>Log in to your account.</p>
+            <form class="sign-in_form">
+
+                <div class="form_control">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+
+                <div class="form_control">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter your password">
+                </div>
+
+                <div class="sign-in_extras">
+                    <div>
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a href=""> Forgot Password</a>
+                </div>
+                <button class="btn primary" type="submit">Sign in</button>
+                <button class="btn">
+                    <img src="./Assets/google.png" alt="Google logo">
+                    <p> Sign in with Google</p>
+                </button>
+            </form>
+            <small class="next-page"> New User..? <a href="./sign-up.html">Sign Up</a></small>
+        </article>
+
+        <article class="sign-in_logo">
+            <div>
+                <img src="./Assets/google.png" alt=" website logo">
+            </div>
+        </article>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

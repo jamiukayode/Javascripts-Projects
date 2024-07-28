@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- font Awesome -->
+    <script src="https://kit.fontawesome.com/4216520162.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sign-in">
+        <article class="sign-in_details">
+            <h1>Sign Up</h1>
+            <p>Fill the form below to create your account.</p>
+            <form class="sign-in_form">
+
+                <div class="form_control">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Enter your Full Name" id="fullname" onkeyup="validateName()">
+                    <span id="fullName-error"></span>
+                </div>
+
+                <div class="form_control">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter your email" id="email" onkeyup="validateEmail()">
+                    <span id="email-error"></span>
+                </div>
+
+                <div class="form_control">
+                    <label for="phone">Phone</label>
+                    <input type="phone" placeholder="Enter your phone number" id="phone" onkeyup="validatePhone()">
+                    <span id="phone-error"></span>
+                </div>
+
+                <div class="form_control">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter your password" id="password" onkeyup="validatePassword()">
+                    <span id="password-error"></span>
+                </div>
+
+                <div class="form_control">
+                    <label for="message"> Message</label>
+                    <textarea rows="6"  id="message" onkeyup="validateMessage()">
+                    </textarea>
+                    <span id="message-error"></span>
+                </div>
+
+                <button class="btn primary" type="submit">Sign Up</button>
+                <span id="signup-error"></span>
+                <button class="btn">
+                    <img src="./Assets/google.png" alt="Google logo">
+                    <p> Sign Up with Google</p>
+                </button>
+            </form>
+            <small class="next-page"> Already a User ? <a href="./index.html">Sign In</a></small>
+        </article>
+
+        <article class="sign-in_logo">
+            <div>
+                <img src="./Assets/google.png" alt=" website logo">
+            </div>
+        </article>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
